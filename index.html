@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Scribe - Team Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tech Scribe</h1>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#map">Map</a></li>
+                    <li><a href="#past-work">Past Work</a></li>
+                </ul>
+            </nav>
+            <button id="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="img/s1.jpg" alt="Slider Image 1">
+                        <div class="slide-content">
+                            <h2>Welcome to Tech Scribe</h2>
+                            <p>We are a group of passionate tech scribe dedicated to creating cutting-edge solutions.</p>
+                            <button class="cta-button">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/2.jpg?height=600&width=1200" alt="Slider Image 2">
+                        <div class="slide-content">
+                            <h2>Innovative Solutions</h2>
+                            <p>Discover how we're shaping the future of technology.</p>
+                            <button class="cta-button">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/3.jpg?height=600&width=1200" alt="Slider Image 3">
+                        <div class="slide-content">
+                            <h2>Join Our Team</h2>
+                            <p>Be part of a dynamic team pushing the boundaries of innovation.</p>
+                            <button class="cta-button">Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-button prev">&lt;</button>
+                <button class="slider-button next">&gt;</button>
+            </div>
+        </section>
+
+        <section id="about" class="intro-section">
+            <div class="container">
+                <h2>About Tech Scribe</h2>
+                <p>At Tech Scribe, we're more than just a team of developers and designers. We're visionaries, problem-solvers, and pioneers in the world of technology. Our mission is to create innovative solutions that transform industries and improve lives.</p>
+                <p>With a diverse team of experts in various fields of technology, we bring a unique perspective to every project we undertake. From artificial intelligence and machine learning to cutting-edge web and mobile applications, we're always pushing the boundaries of what's possible.</p>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <h3>Innovation</h3>
+                        <p>We're constantly exploring new technologies and methodologies to stay ahead of the curve.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Collaboration</h3>
+                        <p>Our team works closely with clients to ensure we deliver solutions that exceed expectations.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Excellence</h3>
+                        <p>We're committed to delivering high-quality, robust, and scalable solutions for every project.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="team">
+            <div class="container">
+                <h2>Our Team</h2>
+                <div class="team-slider-container">
+                    <div class="team-slider" id="team-profiles">
+                        <!-- Team members will be dynamically inserted here -->
+                    </div>
+                    <button class="slider-button team-prev">&lt;</button>
+                    <button class="slider-button team-next">&gt;</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="map">
+            <div class="container">
+                <h2>Team Locations</h2>
+                <div id="team-map"></div>
+            </div>
+        </section>
+
+        <section id="past-work">
+            <div class="container">
+                <h2>Our Past Work</h2>
+                <div id="work-gallery" class="grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Tech Innovators. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
