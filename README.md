@@ -65,12 +65,7 @@ All members are currently studying at the **University of Cincinnati** 🎓
 
 ---
 
-## 🌐 Live Demo
-
-Deployed using GitHub Pages:
-```
-https://HarshaSreeG.github.io/TechScribe/
-```
+## 🌐 Visit the Live Site: https://HarshaSreeG.github.io/TechScribe/
 
 ---
 
