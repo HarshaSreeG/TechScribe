@@ -55,13 +55,13 @@ TechScribe/
 
 | Name | Skills | Hometown |
 |---|---|---|
-| Sharanya Chanda | Full-stack development, AI/ML | Hyderabad, India |
-| Divya Yadavalli | UI/UX Design, Front-end development | Guntur, India |
-| Adepoju Odunayo | Web Development, Machine Learning | Osogbo, Nigeria |
+| Saranya | Full-stack development, AI/ML | Hyderabad, India |
+| Divya | UI/UX Design, Front-end development | Guntur, India |
+| Adepoju | Web Development, Machine Learning | Osogbo, Nigeria |
 | Harsha Sree Gudapati | DevOps, Cloud Architecture | Rajahmundry, India |
-| Perala Vyshnavi | Software Engineering, System Administration | Rajahmundry, India |
+| Vyshnavi | Software Engineering, System Administration | Rajahmundry, India |
 
-All members are currently studying at the **University of Cincinnati** 🎓
+All members are from **University of Cincinnati** 🎓
 
 ---
 
